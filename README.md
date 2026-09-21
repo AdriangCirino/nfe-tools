@@ -23,7 +23,7 @@ O **NFe Tools** transforma o seu editor num verdadeiro canivete suíço fiscal. 
 
 ---
 
-## 📑 Modelos Fiscais Suportados
+##  Modelos Fiscais Suportados
 
 A extensão mapeia dezenas de padrões automaticamente através da tag Raiz e do `<mod>`:
 
@@ -49,7 +49,7 @@ Você também pode acessar as ferramentas de três outras maneiras:
 
 ---
 
-## ⚙️ Configurações e API (Opcional)
+##  Configurações e API (Opcional)
 
 As funções de **Download de XML** e **Geração de PDF** em segundo plano requerem comunicação com a internet. Por padrão, a extensão copiará os dados de forma inteligente e abrirá o navegador padrão (Modo Gratuito) em portais confiáveis (FSIST, DanfeOnline, SEFAZ).
 
