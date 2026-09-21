@@ -1,5 +1,5 @@
 <h1 align="center">
-  📦 NFe Tools — VS Code Extension
+   NFe Tools — VS Code Extension
 </h1>
 
 <p align="center">
@@ -10,16 +10,16 @@
 
 O **NFe Tools** transforma o seu editor num verdadeiro canivete suíço fiscal. Identifique modelos automaticamente, destaque tags XML com temas de cores específicos, visualize DANFEs nativamente, desmembre lotes e baixe notas da SEFAZ, tudo sem sair do VS Code!
 
-## ✨ Principais Funcionalidades
+## Principais Funcionalidades
 
-- 🎨 **Temas de Cores Inteligentes:** Ao abrir um XML, a extensão detecta se é uma NF-e, CT-e ou NFS-e e aplica um Color Theme dinâmico. As cores respeitam a hierarquia das tags (ex: Impostos, Destinatário, Transporte) ajudando seus olhos a encontrarem os dados rapidamente.
-- 🏷️ **Dicionário em Hover:** Pare de decorar manuais do contribuinte! Passe o mouse sobre qualquer tag (ex: `<cStat>`, `<mod>`) e um balão de documentação explicará o que ela significa e os valores aceitos.
-- 📄 **Visualizador de DANFE (Webview):** Visualize um resumo amigável e formatado da nota fiscal com os dados do Emitente, Destinatário, Totais e uma tabela completa de Itens/Produtos ao lado do código.
-- ✂️ **Desmembrar Lotes:** Recebeu um XML gigante com 50 notas dentro de um `<enviNFe>`? Com um clique, extraia e salve todas as notas individualmente, nomeadas pela Chave de Acesso.
-- 🧹 **Formatação de XML (Beautifier):** Formate e indente XMLs minificados (de uma linha só) instantaneamente.
-- ✔️ **Validação Estrutural:** Verifique se o documento aberto está faltando alguma tag estrutural obrigatória (`<chNFe>`, `<CNPJ>`, `<vNF>`).
-- 📥 **Download de XML via Chave:** Baixe o arquivo XML original da SEFAZ usando apenas a Chave de Acesso de 44 dígitos (suporte integrado aos portais FSIST e Nuvem Fiscal).
-- 🖨️ **Exportar PDF:** Converta seus arquivos XML em representações PDF prontas para impressão usando serviços integrados.
+-  **Temas de Cores Inteligentes:** Ao abrir um XML, a extensão detecta se é uma NF-e, CT-e ou NFS-e e aplica um Color Theme dinâmico. As cores respeitam a hierarquia das tags (ex: Impostos, Destinatário, Transporte) ajudando seus olhos a encontrarem os dados rapidamente.
+-  **Dicionário em Hover:** Pare de decorar manuais do contribuinte! Passe o mouse sobre qualquer tag (ex: `<cStat>`, `<mod>`) e um balão de documentação explicará o que ela significa e os valores aceitos.
+-  **Visualizador de DANFE (Webview):** Visualize um resumo amigável e formatado da nota fiscal com os dados do Emitente, Destinatário, Totais e uma tabela completa de Itens/Produtos ao lado do código.
+-  **Desmembrar Lotes:** Recebeu um XML gigante com 50 notas dentro de um `<enviNFe>`? Com um clique, extraia e salve todas as notas individualmente, nomeadas pela Chave de Acesso.
+-  **Formatação de XML (Beautifier):** Formate e indente XMLs minificados (de uma linha só) instantaneamente.
+-  **Validação Estrutural:** Verifique se o documento aberto está faltando alguma tag estrutural obrigatória (`<chNFe>`, `<CNPJ>`, `<vNF>`).
+-  **Download de XML via Chave:** Baixe o arquivo XML original da SEFAZ usando apenas a Chave de Acesso de 44 dígitos (suporte integrado aos portais FSIST e Nuvem Fiscal).
+-  **Exportar PDF:** Converta seus arquivos XML em representações PDF prontas para impressão usando serviços integrados.
 
 ---
 
@@ -37,7 +37,7 @@ A extensão mapeia dezenas de padrões automaticamente através da tag Raiz e do
 
 ---
 
-## 🚀 Como Usar
+##  Como Usar
 
 A extensão injeta um **Painel Exclusivo na sua Barra Lateral** (ícone de arquivo `< >`). Clicando nele, você tem acesso à seção **Ações Rápidas**, de onde você pode disparar todas as ferramentas nos arquivos abertos!
 
@@ -63,7 +63,7 @@ Ao configurar isso, a extensão fará downloads transparentes em background sem 
 
 ---
 
-## 👨‍💻 Contribuindo
+## Contribuindo
 
 Encontrou algum problema em alguma tag específica da sua Prefeitura? A tag `<xNome>` não coloriu direito num layout obscuro?
 Sinta-se à vontade para abrir uma **Issue** ou enviar um **Pull Request** no repositório oficial do GitHub.
